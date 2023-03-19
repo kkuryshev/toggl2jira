@@ -1,5 +1,6 @@
-# toggl2jirapython script to for keeping track of time to Jira from Toggl
-It is useful to use when you work with private Jira server wich is available only from your device but you prefer to check you time with TooglThis script groups toggl notes by jira key, summing up the elapsed time and adds in Jira one entry for each task in one day
+# toggl2jirapython script for keeping track of time to Jira from Toggl
+It is useful to use this script when you work with private Jira server wich is available only from your device. Wherein you prefer to check you time with Toogl. 
+This script groups toggl notes by jira key, summing up the elapsed time and adds in Jira entries for each task in one day
 To make everything works as well you must start you toggl notes with jira issue key (for example: RFT-3687 Some work)
 
 Validations:
@@ -29,4 +30,4 @@ EXAMPLE:
 + **JIRA_LOGIN** = jira login
 + **JIRA_PSWD** = jira password
 
-install venv and requirements please run ```sh ./install.sh```
+Please run ```sh ./install.sh``` to install venv and pip requirements 
