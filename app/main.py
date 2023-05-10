@@ -53,6 +53,7 @@ if __name__ == '__main__':
             write(task_list=task_list)
     except Error as e:
         logger.error(str(e))
+        print(f'link to toogl report: https://track.toggl.com/reports/detailed/from/{args.since}/to/{args.until}')
         exit(1)
     except BaseException as e:
         raise e
