@@ -67,20 +67,20 @@ def getWorkspace():
 
 
 class Endpoints():
-    WORKSPACES = "https://api.track.toggl.com/api/v8/workspaces"
-    CLIENTS = "https://api.track.toggl.com/api/v8/clients"
-    PROJECTS = "https://api.track.toggl.com/api/v8/projects"
-    TASKS = "https://api.track.toggl.com/api/v8/tasks"
+    WORKSPACES = "https://api.track.toggl.com/api/v9/workspaces"
+    CLIENTS = "https://api.track.toggl.com/api/v9/clients"
+    PROJECTS = "https://api.track.toggl.com/api/v9/projects"
+    TASKS = "https://api.track.toggl.com/api/v9/tasks"
     REPORT_WEEKLY = "https://api.track.toggl.com/api/v2/weekly"
     REPORT_DETAILED = "https://api.track.toggl.com/reports/api/v2/details"
     REPORT_SUMMARY = "https://api.track.toggl.com/api/v2/summary"
-    START_TIME = "https://api.track.toggl.com/api/v8/time_entries/start"
-    TIME_ENTRIES = "https://api.track.toggl.com/api/v8/time_entries"
+    START_TIME = "https://api.track.toggl.com/api/v9/time_entries/start"
+    TIME_ENTRIES = "https://api.track.toggl.com/api/v9/time_entries"
 
     @staticmethod
     def STOP_TIME(pid):
-        return "https://api.track.toggl.com/api/v8/time_entries/" + str(pid) + "/stop"
-    CURRENT_RUNNING_TIME = "https://api.track.toggl.com/api/v8/time_entries/current"
+        return "https://api.track.toggl.com/api/v9/time_entries/" + str(pid) + "/stop"
+    CURRENT_RUNNING_TIME = "https://api.track.toggl.com/api/v9/time_entries/current"
 
 
 if __name__ == '__main__':
